@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Features on Hugo Profile</title>
+    <link>http://localhost:58838/tags/features/</link>
+    <description>Recent content in Features on Hugo Profile</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 19 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:58838/tags/features/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JavaScript: Các tính năng ES6 quan trọng</title>
+      <link>http://localhost:58838/blogs/js-es6-features/</link>
+      <pubDate>Sun, 19 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58838/blogs/js-es6-features/</guid>
+      <description>Tổng quan về let/const, arrow functions, template literals, destructuring, modules và các tính năng ES6 khác.</description>
+    </item>
+  </channel>
+</rss>

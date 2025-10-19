@@ -1,0 +1,209 @@
+baseURL: "https://hugo-profile.netlify.app"
+languageCode: "en-us"
+title: "Hugo Profile"
+theme: hugo-profile
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+enableRobotsTXT: true
+
+#services:
+  #googleAnalytics:
+    #id: G-MEASUREMENT_ID
+  #disqus:
+    #shortname: your-disqus-shortname
+
+pagination:
+  pagerSize: 3
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+Menus:
+  main:
+    - identifier: blog
+      name: "Bài viết"
+      title: "Blogs"
+      url: /blogs
+      weight: 1
+
+params:
+  navbar:
+    menus:
+      disableExperience: true
+      disableEducation: true
+      disableProjects: true
+      disableAchievements: true
+      disableContact: true
+
+
+  # Hero
+  hero:
+    enable: true
+    intro: ""
+    title: "LE NGOC TUAN"
+    subtitle: "INFORMATION TECHNOLOGY"
+    content: "IT student majoring in Machine Learning and Applications. Aspiring to become a Machine Learning Engineer."
+    image: "/images/me.png"
+    bottomImage:
+      enable: false
+    # roundImage: true # Make hero image circular | default false
+    button:
+      enable: false
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://example.com
+        - icon: fab fa-x-twitter
+          url: https://example.com
+      customIcons:
+        - icon: /fav.png
+          url: "https://example.com"
+
+  # About
+  about:
+    enable: true
+    title: "ABOUT ME"
+    image: "/images/me.png"
+    dob: "02/04/2004"
+    content: |-
+      IT student majoring in Machine Learning and Applications, aiming to become a Machine Learning Engineer. Aspiring to apply knowledge of Python, Data Science, and machine learning algorithms to develop real-world AI systems, while enhancing analytical skills and model deployment capabilities in enterprise environments.
+    skills:
+      enable: true
+      title: "SKILL"
+      items:
+        - "Programming: Python, C#, SQL"
+        - "Machine Learning: TensorFlow, Scikit-learn, Pandas"
+        - "Data & Viz: NumPy, Matplotlib, SQL Server, MySQL"
+        - "Tools: Git, Jupyter Notebook, Google Colab, Power BI"
+        - "Soft skills: Teamwork, Problem-solving, Presentation, English"
+  # Experience
+  experience:
+    enable: true
+    items:
+      - company: "Projects"
+        companyUrl: ""
+        jobs:
+          - name: "Customer Review Sentiment Classification System"
+            date: "2023"
+            content: |
+              Technologies: Python, Scikit-learn, TensorFlow, Pandas
+              Description: Collected hotel review data and trained an NLP model to classify feedback as positive or negative.
+              Result: Achieved ~85% accuracy.
+          - name: "Hotel Booking Cancellation Prediction Application"
+            date: "2022"
+            content: |
+              Technologies: ML.NET, ASP.NET, MVC, SQL Server
+              Description: Integrated a cancellation prediction model into the hotel management system to enable early warnings for high-risk bookings.
+          - name: "Customer Segmentation by Booking Behavior"
+            date: "2022"
+            content: |
+              Technologies: Python, K-Means Clustering, Matplotlib, Power BI
+              Description: Grouped customers based on booking data to support personalized marketing campaigns.
+
+  # Education
+  education:
+    enable: true
+    # title: "Custom Name"
+    index: false
+    items:
+      - title: "Hutech University of Technology"
+        school:
+          name: "Hutech University of Technology"
+          url: "https://hutech.edu.vn"
+        date: "2022 - 2026"
+        GPA: "3.0"
+        content: |-
+          Major: Information Technology
+          - Relevant coursework: Machine Learning, Data Science, Software Engineering
+
+  # Achievements
+  achievements:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - title: "Cisco Networking Basics – Cisco Networking Academy (2025)"
+        content: Start learning the basics of computer networking and discover how networks operate.
+        
+        image: /images/NB.PNG
+      - title: JavaScript Essentials 1 – Cisco Networking Academy (2025)
+        content: Design, develop, and improve JavaScript programs. Boost your programming skills to start your career in technology.
+        image: /images/JS1.PNG
+      - title: JavaScript Essentials 2 – Cisco Networking Academy (2025)
+        content: The second in a 2-course series. Gain a strong JavaScript foundation and prepare for JSA – Certified Associate JavaScript Programmer Certification
+         
+        image: /images/JS2.PNG
+      - title: General English Test at Intermediate Level CEF Level B1
+        content: Demonstrated proficiency in English at the B1 level.
+        
+        
+
+
+  
+  #Contact
+  contact:
+    enable: true
+    # title: "Custom Name"
+    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+    btnName: Mail me
+    btnLink: mailto:lengoctuan04lkk@gmail.com
+    # formspree:
+    #   enable: true # `contact.email` value will be ignored
+    #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
+    #   emailCaption: "Enter your email address"
+    #   messageCaption: "Enter your message here"
+    #   messageRows: 5
+
+  footer:
+    recentPosts:
+      path: "blogs"
+      count: 3
+      title: Recent Posts
+      enable: true
+      disableFeaturedImage: false
+    socialNetworks:
+      github: https://github.com
+      linkedin: https://linkedin.com
+      twitter: https://twitter.com
+      instagram: https://instagram.com
+      facebook: https://facebook.com
+
+  # List pages like blogs and posts
+  listPages:
+    disableFeaturedImage: false
+
+  # Single pages like blog and post
+  singlePages:
+    socialShare: true
+    readTime:
+      enable: true
+      content: "min read"
+    scrollprogress:
+      enable: true
+    tags:
+      openInNewTab: true
+
+  # For translations
+  terms:
+    read: "Đọc"
+    toc: "Table Of Contents"
+    copyright: "All rights reserved"
+    pageNotFound: "Page not found"
+    emailText: "Check out this site"
+
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"
+
+  #customScripts: -| # You can add custom scripts which will be added before </body> tag
+  #  <script type="text/javascript"><!-- any script here --></script>

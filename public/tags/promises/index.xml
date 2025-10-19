@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Promises on Hugo Profile</title>
+    <link>http://localhost:58838/tags/promises/</link>
+    <description>Recent content in Promises on Hugo Profile</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 19 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:58838/tags/promises/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JavaScript: Async/Await — Hiểu và ứng dụng</title>
+      <link>http://localhost:58838/blogs/js-async-await/</link>
+      <pubDate>Sun, 19 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58838/blogs/js-async-await/</guid>
+      <description>Cách dùng async/await để viết mã bất đồng bộ dễ đọc hơn, xử lý lỗi và tối ưu chuỗi promise.</description>
+    </item>
+  </channel>
+</rss>

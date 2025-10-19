@@ -1,0 +1,398 @@
+/* Custom font overrides */
+/* Using Inter (sans-serif) for the whole site */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+:root{
+  /* sensible defaults */
+  --font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+html, body {
+  font-family: var(--font-sans);
+  font-size: 16px; /* base size */
+  line-height: 1.6;
+  color: var(--text-color, #343a40);
+}
+
+/* Headings use the same sans-serif for a clean, modern look */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-sans);
+  color: var(--text-color, #343a40);
+  margin-top: 0.6em;
+  margin-bottom: 0.4em;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+}
+
+h1 { font-size: 2.25rem; font-weight: 700; }
+h2 { font-size: 1.75rem; font-weight: 700; }
+h3 { font-size: 1.35rem; font-weight: 600; }
+
+/* Adjust navbar / small text */
+.navbar, .small, .caption { font-size: 0.95rem; }
+
+/* Improve readability for paragraphs and lists */
+p, li { font-size: 1rem; color: var(--text-secondary-color, #6c757d); }
+
+/* Make buttons and links slightly bolder for clarity */
+a, .btn { font-weight: 600; }
+
+/* Ensure images in hero/profile are crisp and circular where expected */
+.hero img, .about img, .profile-img {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Minor responsive tweaks */
+@media (max-width: 768px) {
+  h1 { font-size: 1.8rem; }
+  h2 { font-size: 1.4rem; }
+}
+
+/* HERO: gradient background and centered content like sample */
+#hero {
+  background: linear-gradient(180deg, #f3e8ff 0%, #f6f7ff 45%, #ffffff 100%);
+  padding-top: 4.5rem;
+  padding-bottom: 4.5rem;
+}
+
+#hero .content {
+  padding: 2rem 1rem;
+}
+
+#hero h1 {
+  font-size: 3.5rem;
+  color: #222;
+  text-align: left;
+}
+
+#hero h2 {
+  color: #6c757d;
+  font-weight: 500;
+}
+
+#hero .hero-content {
+  color: #55606a;
+  max-width: 54rem;
+}
+
+/* ABOUT: card style on the left image and elevated panel for content */
+#about .container {
+  max-width: 1100px;
+}
+
+#about h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #222;
+  letter-spacing: 0.06em;
+  margin-bottom: 1.25rem;
+}
+
+#about .image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#about .row.justify-content-center {
+  align-items: center; /* vertically center image and content columns */
+}
+
+#about .content {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 8px 28px rgba(37, 56, 88, 0.08);
+  min-height: 260px; /* match typical avatar size */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* vertically center content inside card */
+}
+
+#about .image img {
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 12px 36px rgba(37,56,88,0.08);
+}
+
+#about ul { margin-top: 1rem; }
+#about li { margin-bottom: 0.5rem; }
+
+/* make the About title block standout */
+#about .text-center {
+  display: block;
+  padding: 1rem 0.5rem;
+  margin: 0 auto 1rem auto;
+}
+
+/* Buttons */
+.btn {
+  background: linear-gradient(90deg,#7b61ff,#b35afe);
+  color: #fff !important;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  #hero h1 { font-size: 2rem; }
+}
+
+/* Projects list styling for clearer typography and spacing */
+#projects .card {
+  border: none;
+  border-radius: 12px;
+  padding: 1rem;
+  background: rgba(255,255,255,0.95);
+  box-shadow: 0 16px 40px rgba(37,56,88,0.06);
+}
+
+#projects .card .card-title {
+  font-size: 1.375rem; /* bigger title */
+  font-weight: 700;
+  color: #233047;
+}
+
+#projects .card .card-text {
+  font-size: 0.98rem;
+  color: #56616a;
+  margin-top: 0.5rem;
+}
+
+/* Align year to the right if present; we'll target an element with float-end or create a pseudo year */
+#projects .project-year { float: right; color: #7a8790; font-weight: 600; }
+
+/* Make badges subtle */
+#projects .badge { background: rgba(0,0,0,0.06); color: #334; margin-right: 0.35rem; }
+
+/* On larger screens show the card as a single horizontal card for the list look */
+@media (min-width: 992px) {
+  #projects .row.justify-content-center .col-lg-4 { max-width: 900px; }
+  #projects .card { display: block; }
+}
+
+/* New list-style project entries */
+.project-entry { border-bottom: 1px solid rgba(0,0,0,0.06); padding: 1rem 0; }
+.project-entry:last-child { border-bottom: none; }
+.proj-title { font-size: 1.5rem; color: #233047; font-weight: 700; }
+.proj-desc { font-size: 1rem; color: #56616a; margin-top: .35rem; }
+.project-year { color: #7a8790; font-weight: 600; margin-left: 1rem; white-space: nowrap; }
+
+/* Normalize title/link sizing so suffix/link text doesn't appear different */
+.proj-title a, .proj-title a:visited, .proj-title .suffix {
+  font-size: inherit; /* inherit the title size */
+  font-weight: 700;
+  color: #1e73be; /* keep link color */
+  text-decoration: none;
+}
+.proj-title a:hover, .proj-title a:focus { text-decoration: underline; }
+
+/* Slightly smaller year to reduce visual weight */
+.project-year { font-size: 0.95rem; color: #6f7b82; }
+
+/* Slightly bigger spacing for the top heading inside the card */
+#projects .card-body { padding: 1.5rem 2rem; }
+
+@media (max-width: 768px) {
+  .proj-title { font-size: 1.2rem; }
+  .project-year { display: block; margin-top: .35rem; }
+}
+
+/* Dark mode card tweaks */
+body.dark .card {
+  background: rgba(14,20,36,0.6) !important;
+  color: var(--text-color-dark) !important;
+  box-shadow: 0 12px 36px rgba(0,0,0,0.6) !important;
+  border: 1px solid rgba(255,255,255,0.03);
+}
+
+body.dark .proj-desc { color: rgba(255,255,255,0.78); }
+body.dark .proj-title { color: #f2f4f8; }
+body.dark .project-year { color: rgba(255,255,255,0.65); }
+
+/* Responsive: on small screens, stack and remove forced heights */
+@media (max-width: 991px) {
+  #about .content { min-height: 0; padding: 1.5rem; }
+  #about .image img { width: 160px; height: 160px; margin-bottom: 1rem; }
+  #about .row.justify-content-center { align-items: flex-start; }
+}
+
+
+/* Apply richer, layered background to whole site (radial highlights + gradient) */
+html {
+  background-image:
+    radial-gradient(circle at 10% 10%, rgba(123,97,255,0.06) 0%, rgba(123,97,255,0.00) 22%),
+    linear-gradient(180deg, #f6f9ff 0%, #eef4ff 30%, #f9f6ff 60%, #ffffff 100%);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Keep the body transparent so white cards and sections show above the gradient */
+body {
+  background: transparent;
+  color: var(--text-color, #343a40);
+}
+
+/* Dark-mode page background */
+body.dark html {
+  background-image:
+    radial-gradient(circle at 85% 10%, rgba(11,20,45,0.28) 0%, rgba(11,20,45,0.00) 24%),
+    linear-gradient(180deg, #071025 0%, #0e1a36 40%, #071226 100%);
+}
+
+/* Ensure text color flips in dark mode */
+body.dark {
+  color: var(--text-color-dark, #e4e6eb);
+}
+
+/* Ensure main container areas are transparent (so gradient shows through) */
+.container, .site, .site-content {
+  background: transparent;
+}
+
+/* Force sections and common theme background utilities to be transparent so
+   the page-wide gradient is uniform. Use !important to override theme CSS. */
+section, header, footer, .site, .site-content, .container, .row, .col, .jumbotron, .bg-light, .bg-white {
+  background: transparent !important;
+}
+
+/* Specific override for the ABOUT header band that was showing a light gray */
+#about, #about .container, #about .row, #about .text-center {
+  background: transparent !important;
+}
+
+/* Navbar color overrides: purple gradient, white links, hover effects */
+#profileHeader {
+  z-index: 5; /* ensure navbar sits above overlay */
+  background: linear-gradient(90deg, #7b61ff 0%, #b35afe 100%) !important;
+  box-shadow: 0 6px 18px rgba(40, 30, 90, 0.08);
+}
+
+#profileHeader .navbar {
+  background: transparent !important;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+#profileHeader .navbar-brand,
+#profileHeader .nav-link,
+#profileHeader .navbar-text,
+#profileHeader .navbar-toggler svg {
+  color: #fff !important;
+}
+
+#profileHeader .nav-link {
+  color: rgba(255,255,255,0.95) !important;
+  transition: background .12s ease, color .12s ease, transform .12s ease;
+}
+
+#profileHeader .nav-link:hover, #profileHeader .nav-link:focus {
+  color: #fff !important;
+  background: rgba(255,255,255,0.06);
+  border-radius: 6px;
+  transform: translateY(-2px);
+}
+
+/* Toggler button style on mobile */
+#profileHeader .navbar-toggler {
+  border-color: rgba(255,255,255,0.18);
+}
+
+#profileHeader .navbar-collapse {
+  background: linear-gradient(180deg, rgba(123,97,255,0.95), rgba(179,90,254,0.95));
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+@media (min-width: 992px) {
+  #profileHeader .navbar-collapse { background: transparent !important; padding: 0; }
+}
+
+/* Theme toggle button: make it visually match the navbar background */
+#profileHeader #theme-toggle {
+  background: transparent !important; /* let the navbar gradient show through */
+  border: none;
+  padding: 6px;
+  border-radius: 6px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: none;
+  margin-left: .5rem;
+}
+
+#profileHeader #theme-toggle svg {
+  color: #fff; /* SVG icons use currentColor */
+  stroke: currentColor;
+}
+
+#profileHeader #theme-toggle:hover { transform: translateY(-2px); }
+
+/* Dark mode overrides: when site toggles to dark, choose a darker navbar gradient and ensure contrast */
+body.dark #profileHeader {
+  background: linear-gradient(90deg, #2b1f4f 0%, #3b2a66 100%) !important;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.45);
+}
+
+body.dark #profileHeader .nav-link,
+body.dark #profileHeader .navbar-brand,
+body.dark #profileHeader .navbar-text {
+  color: #f1eefb !important;
+}
+
+body.dark #profileHeader #theme-toggle svg { color: #f6f3ff; }
+
+/* Ensure mobile collapsed menu in dark mode stays readable */
+@media (max-width: 991px) {
+  body.dark #profileHeader .navbar-collapse { background: linear-gradient(180deg, #2b1f4f, #3b2a66) !important; }
+}
+
+/* subtle dark overlay + texture lines */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 0; /* sit above background but below content */
+  pointer-events: none;
+  /* combine a soft dark tint with a very light repeating stripe */
+  background-image:
+    linear-gradient(rgba(0,0,0,0.06), rgba(0,0,0,0.04)),
+    repeating-linear-gradient(135deg, rgba(255,255,255,0.02) 0px, rgba(255,255,255,0.02) 1px, transparent 1px, transparent 22px);
+}
+
+/* ensure content stacks above the overlay */
+body > * , .site, .container, .site-content, header, footer, section {
+  position: relative;
+  z-index: 1;
+}
+
+/* Social icons in hero */
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: linear-gradient(180deg, rgba(123,97,255,0.12), rgba(179,90,254,0.12));
+  border: 2px solid rgba(123,97,255,0.12);
+  color: #fff !important;
+  box-shadow: 0 6px 18px rgba(123,97,255,0.12);
+  transition: transform .14s ease, box-shadow .14s ease, background .14s ease;
+}
+
+.social-icon i, .social-icon img { color: #6f2cff; font-size: 22px; }
+.social-icon img { width: 22px; height: 22px; filter: drop-shadow(0 1px 0 rgba(0,0,0,0.02)); }
+
+.social-icon:hover {
+  transform: translateY(-4px) scale(1.06);
+  box-shadow: 0 12px 30px rgba(123,97,255,0.18);
+  background: linear-gradient(90deg,#7b61ff,#b35afe);
+}
+
+.social-icon:focus { outline: none; box-shadow: 0 0 0 4px rgba(123,97,255,0.12); }

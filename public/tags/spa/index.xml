@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spa on Hugo Profile</title>
+    <link>http://localhost:58838/tags/spa/</link>
+    <description>Recent content in Spa on Hugo Profile</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 19 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:58838/tags/spa/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JavaScript: Xây dựng SPA với React — Bắt đầu nhanh</title>
+      <link>http://localhost:58838/blogs/js-react-spa/</link>
+      <pubDate>Sun, 19 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58838/blogs/js-react-spa/</guid>
+      <description>Tạo single-page application bằng React: components, state, props, routing và best practices.</description>
+    </item>
+  </channel>
+</rss>

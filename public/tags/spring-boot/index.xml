@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spring-Boot on Hugo Profile</title>
+    <link>http://localhost:58838/tags/spring-boot/</link>
+    <description>Recent content in Spring-Boot on Hugo Profile</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 19 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:58838/tags/spring-boot/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java: Xây dựng REST API với Spring Boot</title>
+      <link>http://localhost:58838/blogs/java-springboot-restapi/</link>
+      <pubDate>Sun, 19 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58838/blogs/java-springboot-restapi/</guid>
+      <description>Tạo RESTful API đơn giản bằng Spring Boot cùng các khái niệm về Controller, Service, Repository và cấu hình.</description>
+    </item>
+  </channel>
+</rss>
