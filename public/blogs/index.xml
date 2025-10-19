@@ -1,3 +1,82 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo Profile</title><link>https://hugo-profile.netlify.app/blogs/</link><description>Recent content on Hugo Profile</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 10 Apr 2024 09:00:00 +0700</lastBuildDate><atom:link href="https://hugo-profile.netlify.app/blogs/index.xml" rel="self" type="application/rss+xml"/><item><title>Testing JavaScript với Jest</title><link>https://hugo-profile.netlify.app/blogs/js-testing-jest/</link><pubDate>Wed, 10 Apr 2024 09:00:00 +0700</pubDate><guid>https://hugo-profile.netlify.app/blogs/js-testing-jest/</guid><description>Hướng dẫn cơ bản viết unit test với Jest</description></item><item><title>React SPA — Bắt đầu nhanh</title><link>https://hugo-profile.netlify.app/blogs/js-react-spa/</link><pubDate>Mon, 01 Apr 2024 09:00:00 +0700</pubDate><guid>https://hugo-profile.netlify.app/blogs/js-react-spa/</guid><description>Các khái niệm cơ bản để xây dựng single-page app với React: components, state, props</description></item><item><title>DOM Best Practices</title><link>https://hugo-profile.netlify.app/blogs/js-dom-best-practices/</link><pubDate>Wed, 20 Mar 2024 09:00:00 +0700</pubDate><guid>https://hugo-profile.netlify.app/blogs/js-dom-best-practices/</guid><description>Thực hành tốt khi thao tác DOM: tránh reflow, batch updates, event delegation</description></item><item><title>Async / Await trong JavaScript</title><link>https://hugo-profile.netlify.app/blogs/js-async-await/</link><pubDate>Sun, 10 Mar 2024 09:00:00 +0700</pubDate><guid>https://hugo-profile.netlify.app/blogs/js-async-await/</guid><description>Sử dụng async/await để làm việc với Promise một cách tuần tự và rõ ràng</description></item><item><title>JavaScript ES6: Những tính năng quan trọng</title><link>https://hugo-profile.netlify.app/blogs/js-es6-features/</link><pubDate>Fri, 01 Mar 2024 09:00:00 +0700</pubDate><guid>https://hugo-profile.netlify.app/blogs/js-es6-features/</guid><description>Tổng quan các tính năng ES6: let/const, arrow functions, template strings, destructuring, modules</description></item><item><title>Spring Boot REST API cơ bản</title><link>https://hugo-profile.netlify.app/blogs/java-springboot-restapi/</link><pubDate>Thu, 01 Feb 2024 10:00:00 +0700</pubDate><guid>https://hugo-profile.netlify.app/blogs/java-springboot-restapi/</guid><description>Tạo REST API cơ bản bằng Spring Boot</description></item><item><title>Xử lý ngoại lệ trong Java</title><link>https://hugo-profile.netlify.app/blogs/java-exception-handling/</link><pubDate>Mon, 15 Jan 2024 11:00:00 +0700</pubDate><guid>https://hugo-profile.netlify.app/blogs/java-exception-handling/</guid><description>Cách dùng try/catch/finally và custom exceptions trong Java</description></item><item><title>Java Streams API</title><link>https://hugo-profile.netlify.app/blogs/java-streams-api/</link><pubDate>Wed, 10 Jan 2024 09:00:00 +0700</pubDate><guid>https://hugo-profile.netlify.app/blogs/java-streams-api/</guid><description>Sử dụng Streams để xử lý dữ liệu theo phong cách chức năng trong Java</description></item><item><title>Giới thiệu OOP trong Java</title><link>https://hugo-profile.netlify.app/blogs/java-intro-oop/</link><pubDate>Tue, 02 Jan 2024 10:00:00 +0700</pubDate><guid>https://hugo-profile.netlify.app/blogs/java-intro-oop/</guid><description>Những khái niệm cơ bản về lập trình hướng đối tượng trong Java</description></item><item><title>Bài viết đầu tiên</title><link>https://hugo-profile.netlify.app/blogs/first-post/</link><pubDate>Mon, 01 Jan 2024 09:00:00 +0700</pubDate><guid>https://hugo-profile.netlify.app/blogs/first-post/</guid><description>&lt;hr&gt;
-&lt;h2 id="nội-dung-mẫu-cho-bài-viết-đầu-tiên"&gt;Nội dung mẫu cho bài viết đầu tiên.&lt;/h2&gt;
-&lt;p&gt;Nội dung mẫu cho bài viết đầu tiên.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo Profile</title>
+    <link>https://github.com/Tuan0204/lengoctuan/blogs/</link>
+    <description>Recent content on Hugo Profile</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Apr 2024 09:00:00 +0700</lastBuildDate>
+    <atom:link href="https://github.com/Tuan0204/lengoctuan/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Testing JavaScript với Jest</title>
+      <link>https://github.com/Tuan0204/lengoctuan/blogs/js-testing-jest/</link>
+      <pubDate>Wed, 10 Apr 2024 09:00:00 +0700</pubDate>
+      <guid>https://github.com/Tuan0204/lengoctuan/blogs/js-testing-jest/</guid>
+      <description>Hướng dẫn cơ bản viết unit test với Jest</description>
+    </item>
+    <item>
+      <title>React SPA — Bắt đầu nhanh</title>
+      <link>https://github.com/Tuan0204/lengoctuan/blogs/js-react-spa/</link>
+      <pubDate>Mon, 01 Apr 2024 09:00:00 +0700</pubDate>
+      <guid>https://github.com/Tuan0204/lengoctuan/blogs/js-react-spa/</guid>
+      <description>Các khái niệm cơ bản để xây dựng single-page app với React: components, state, props</description>
+    </item>
+    <item>
+      <title>DOM Best Practices</title>
+      <link>https://github.com/Tuan0204/lengoctuan/blogs/js-dom-best-practices/</link>
+      <pubDate>Wed, 20 Mar 2024 09:00:00 +0700</pubDate>
+      <guid>https://github.com/Tuan0204/lengoctuan/blogs/js-dom-best-practices/</guid>
+      <description>Thực hành tốt khi thao tác DOM: tránh reflow, batch updates, event delegation</description>
+    </item>
+    <item>
+      <title>Async / Await trong JavaScript</title>
+      <link>https://github.com/Tuan0204/lengoctuan/blogs/js-async-await/</link>
+      <pubDate>Sun, 10 Mar 2024 09:00:00 +0700</pubDate>
+      <guid>https://github.com/Tuan0204/lengoctuan/blogs/js-async-await/</guid>
+      <description>Sử dụng async/await để làm việc với Promise một cách tuần tự và rõ ràng</description>
+    </item>
+    <item>
+      <title>JavaScript ES6: Những tính năng quan trọng</title>
+      <link>https://github.com/Tuan0204/lengoctuan/blogs/js-es6-features/</link>
+      <pubDate>Fri, 01 Mar 2024 09:00:00 +0700</pubDate>
+      <guid>https://github.com/Tuan0204/lengoctuan/blogs/js-es6-features/</guid>
+      <description>Tổng quan các tính năng ES6: let/const, arrow functions, template strings, destructuring, modules</description>
+    </item>
+    <item>
+      <title>Spring Boot REST API cơ bản</title>
+      <link>https://github.com/Tuan0204/lengoctuan/blogs/java-springboot-restapi/</link>
+      <pubDate>Thu, 01 Feb 2024 10:00:00 +0700</pubDate>
+      <guid>https://github.com/Tuan0204/lengoctuan/blogs/java-springboot-restapi/</guid>
+      <description>Tạo REST API cơ bản bằng Spring Boot</description>
+    </item>
+    <item>
+      <title>Xử lý ngoại lệ trong Java</title>
+      <link>https://github.com/Tuan0204/lengoctuan/blogs/java-exception-handling/</link>
+      <pubDate>Mon, 15 Jan 2024 11:00:00 +0700</pubDate>
+      <guid>https://github.com/Tuan0204/lengoctuan/blogs/java-exception-handling/</guid>
+      <description>Cách dùng try/catch/finally và custom exceptions trong Java</description>
+    </item>
+    <item>
+      <title>Java Streams API</title>
+      <link>https://github.com/Tuan0204/lengoctuan/blogs/java-streams-api/</link>
+      <pubDate>Wed, 10 Jan 2024 09:00:00 +0700</pubDate>
+      <guid>https://github.com/Tuan0204/lengoctuan/blogs/java-streams-api/</guid>
+      <description>Sử dụng Streams để xử lý dữ liệu theo phong cách chức năng trong Java</description>
+    </item>
+    <item>
+      <title>Giới thiệu OOP trong Java</title>
+      <link>https://github.com/Tuan0204/lengoctuan/blogs/java-intro-oop/</link>
+      <pubDate>Tue, 02 Jan 2024 10:00:00 +0700</pubDate>
+      <guid>https://github.com/Tuan0204/lengoctuan/blogs/java-intro-oop/</guid>
+      <description>Những khái niệm cơ bản về lập trình hướng đối tượng trong Java</description>
+    </item>
+    <item>
+      <title>Bài viết đầu tiên</title>
+      <link>https://github.com/Tuan0204/lengoctuan/blogs/first-post/</link>
+      <pubDate>Mon, 01 Jan 2024 09:00:00 +0700</pubDate>
+      <guid>https://github.com/Tuan0204/lengoctuan/blogs/first-post/</guid>
+      <description>&lt;hr&gt;&#xA;&lt;h2 id=&#34;nội-dung-mẫu-cho-bài-viết-đầu-tiên&#34;&gt;Nội dung mẫu cho bài viết đầu tiên.&lt;/h2&gt;&#xA;&lt;p&gt;Nội dung mẫu cho bài viết đầu tiên.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

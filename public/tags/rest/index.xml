@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rest on Hugo Profile</title><link>https://hugo-profile.netlify.app/tags/rest/</link><description>Recent content in Rest on Hugo Profile</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 01 Feb 2024 10:00:00 +0700</lastBuildDate><atom:link href="https://hugo-profile.netlify.app/tags/rest/index.xml" rel="self" type="application/rss+xml"/><item><title>Spring Boot REST API cơ bản</title><link>https://hugo-profile.netlify.app/blogs/java-springboot-restapi/</link><pubDate>Thu, 01 Feb 2024 10:00:00 +0700</pubDate><guid>https://hugo-profile.netlify.app/blogs/java-springboot-restapi/</guid><description>Tạo REST API cơ bản bằng Spring Boot</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rest on Hugo Profile</title>
+    <link>https://github.com/Tuan0204/lengoctuan/tags/rest/</link>
+    <description>Recent content in Rest on Hugo Profile</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Feb 2024 10:00:00 +0700</lastBuildDate>
+    <atom:link href="https://github.com/Tuan0204/lengoctuan/tags/rest/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spring Boot REST API cơ bản</title>
+      <link>https://github.com/Tuan0204/lengoctuan/blogs/java-springboot-restapi/</link>
+      <pubDate>Thu, 01 Feb 2024 10:00:00 +0700</pubDate>
+      <guid>https://github.com/Tuan0204/lengoctuan/blogs/java-springboot-restapi/</guid>
+      <description>Tạo REST API cơ bản bằng Spring Boot</description>
+    </item>
+  </channel>
+</rss>

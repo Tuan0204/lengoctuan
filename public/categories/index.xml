@@ -1,1 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Categories on Hugo Profile</title><link>https://hugo-profile.netlify.app/categories/</link><description>Recent content in Categories on Hugo Profile</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 10 Apr 2024 09:00:00 +0700</lastBuildDate><atom:link href="https://hugo-profile.netlify.app/categories/index.xml" rel="self" type="application/rss+xml"/><item><title>JavaScript</title><link>https://hugo-profile.netlify.app/categories/javascript/</link><pubDate>Wed, 10 Apr 2024 09:00:00 +0700</pubDate><guid>https://hugo-profile.netlify.app/categories/javascript/</guid><description/></item><item><title>Java</title><link>https://hugo-profile.netlify.app/categories/java/</link><pubDate>Thu, 01 Feb 2024 10:00:00 +0700</pubDate><guid>https://hugo-profile.netlify.app/categories/java/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Hugo Profile</title>
+    <link>https://github.com/Tuan0204/lengoctuan/categories/</link>
+    <description>Recent content in Categories on Hugo Profile</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Apr 2024 09:00:00 +0700</lastBuildDate>
+    <atom:link href="https://github.com/Tuan0204/lengoctuan/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JavaScript</title>
+      <link>https://github.com/Tuan0204/lengoctuan/categories/javascript/</link>
+      <pubDate>Wed, 10 Apr 2024 09:00:00 +0700</pubDate>
+      <guid>https://github.com/Tuan0204/lengoctuan/categories/javascript/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Java</title>
+      <link>https://github.com/Tuan0204/lengoctuan/categories/java/</link>
+      <pubDate>Thu, 01 Feb 2024 10:00:00 +0700</pubDate>
+      <guid>https://github.com/Tuan0204/lengoctuan/categories/java/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

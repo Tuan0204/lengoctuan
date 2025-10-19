@@ -1,1 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Java on Hugo Profile</title><link>https://hugo-profile.netlify.app/tags/java/</link><description>Recent content in Java on Hugo Profile</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 01 Feb 2024 10:00:00 +0700</lastBuildDate><atom:link href="https://hugo-profile.netlify.app/tags/java/index.xml" rel="self" type="application/rss+xml"/><item><title>Spring Boot REST API cơ bản</title><link>https://hugo-profile.netlify.app/blogs/java-springboot-restapi/</link><pubDate>Thu, 01 Feb 2024 10:00:00 +0700</pubDate><guid>https://hugo-profile.netlify.app/blogs/java-springboot-restapi/</guid><description>Tạo REST API cơ bản bằng Spring Boot</description></item><item><title>Xử lý ngoại lệ trong Java</title><link>https://hugo-profile.netlify.app/blogs/java-exception-handling/</link><pubDate>Mon, 15 Jan 2024 11:00:00 +0700</pubDate><guid>https://hugo-profile.netlify.app/blogs/java-exception-handling/</guid><description>Cách dùng try/catch/finally và custom exceptions trong Java</description></item><item><title>Java Streams API</title><link>https://hugo-profile.netlify.app/blogs/java-streams-api/</link><pubDate>Wed, 10 Jan 2024 09:00:00 +0700</pubDate><guid>https://hugo-profile.netlify.app/blogs/java-streams-api/</guid><description>Sử dụng Streams để xử lý dữ liệu theo phong cách chức năng trong Java</description></item><item><title>Giới thiệu OOP trong Java</title><link>https://hugo-profile.netlify.app/blogs/java-intro-oop/</link><pubDate>Tue, 02 Jan 2024 10:00:00 +0700</pubDate><guid>https://hugo-profile.netlify.app/blogs/java-intro-oop/</guid><description>Những khái niệm cơ bản về lập trình hướng đối tượng trong Java</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Java on Hugo Profile</title>
+    <link>https://github.com/Tuan0204/lengoctuan/tags/java/</link>
+    <description>Recent content in Java on Hugo Profile</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Feb 2024 10:00:00 +0700</lastBuildDate>
+    <atom:link href="https://github.com/Tuan0204/lengoctuan/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spring Boot REST API cơ bản</title>
+      <link>https://github.com/Tuan0204/lengoctuan/blogs/java-springboot-restapi/</link>
+      <pubDate>Thu, 01 Feb 2024 10:00:00 +0700</pubDate>
+      <guid>https://github.com/Tuan0204/lengoctuan/blogs/java-springboot-restapi/</guid>
+      <description>Tạo REST API cơ bản bằng Spring Boot</description>
+    </item>
+    <item>
+      <title>Xử lý ngoại lệ trong Java</title>
+      <link>https://github.com/Tuan0204/lengoctuan/blogs/java-exception-handling/</link>
+      <pubDate>Mon, 15 Jan 2024 11:00:00 +0700</pubDate>
+      <guid>https://github.com/Tuan0204/lengoctuan/blogs/java-exception-handling/</guid>
+      <description>Cách dùng try/catch/finally và custom exceptions trong Java</description>
+    </item>
+    <item>
+      <title>Java Streams API</title>
+      <link>https://github.com/Tuan0204/lengoctuan/blogs/java-streams-api/</link>
+      <pubDate>Wed, 10 Jan 2024 09:00:00 +0700</pubDate>
+      <guid>https://github.com/Tuan0204/lengoctuan/blogs/java-streams-api/</guid>
+      <description>Sử dụng Streams để xử lý dữ liệu theo phong cách chức năng trong Java</description>
+    </item>
+    <item>
+      <title>Giới thiệu OOP trong Java</title>
+      <link>https://github.com/Tuan0204/lengoctuan/blogs/java-intro-oop/</link>
+      <pubDate>Tue, 02 Jan 2024 10:00:00 +0700</pubDate>
+      <guid>https://github.com/Tuan0204/lengoctuan/blogs/java-intro-oop/</guid>
+      <description>Những khái niệm cơ bản về lập trình hướng đối tượng trong Java</description>
+    </item>
+  </channel>
+</rss>

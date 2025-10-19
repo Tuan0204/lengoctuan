@@ -1,7 +1,7 @@
 baseURL: "https://github.com/Tuan0204/lengoctuan"
 languageCode: "en-us"
 title: "Hugo Profile"
-theme: gurusabarish
+theme: hugo-profile
 
 outputs:
   home:

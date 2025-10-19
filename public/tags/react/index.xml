@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>React on Hugo Profile</title><link>https://hugo-profile.netlify.app/tags/react/</link><description>Recent content in React on Hugo Profile</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 01 Apr 2024 09:00:00 +0700</lastBuildDate><atom:link href="https://hugo-profile.netlify.app/tags/react/index.xml" rel="self" type="application/rss+xml"/><item><title>React SPA — Bắt đầu nhanh</title><link>https://hugo-profile.netlify.app/blogs/js-react-spa/</link><pubDate>Mon, 01 Apr 2024 09:00:00 +0700</pubDate><guid>https://hugo-profile.netlify.app/blogs/js-react-spa/</guid><description>Các khái niệm cơ bản để xây dựng single-page app với React: components, state, props</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>React on Hugo Profile</title>
+    <link>https://github.com/Tuan0204/lengoctuan/tags/react/</link>
+    <description>Recent content in React on Hugo Profile</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Apr 2024 09:00:00 +0700</lastBuildDate>
+    <atom:link href="https://github.com/Tuan0204/lengoctuan/tags/react/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>React SPA — Bắt đầu nhanh</title>
+      <link>https://github.com/Tuan0204/lengoctuan/blogs/js-react-spa/</link>
+      <pubDate>Mon, 01 Apr 2024 09:00:00 +0700</pubDate>
+      <guid>https://github.com/Tuan0204/lengoctuan/blogs/js-react-spa/</guid>
+      <description>Các khái niệm cơ bản để xây dựng single-page app với React: components, state, props</description>
+    </item>
+  </channel>
+</rss>
