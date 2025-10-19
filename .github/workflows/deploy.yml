@@ -11,7 +11,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          submodules: 'recursive'
+          # Disable submodule fetching because this repository does not provide
+          # URLs for submodules in .gitmodules. If you need submodules, either
+          # add a proper .gitmodules file or set this to 'recursive'.
+          submodules: 'false'
+          # Fetch full history (useful if actions-gh-pages needs commit metadata)
+          fetch-depth: 0
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
